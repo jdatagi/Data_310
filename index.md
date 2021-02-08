@@ -1,4 +1,4 @@
-## Welcome to Data 310
+##Jacob Atagi Data 310
 
 ### Informal Responses
 [exercise_1](https://github.com/jdatagi/Data_310/blob/main/exercise1.md)
