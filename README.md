@@ -1,4 +1,4 @@
-# Welcome to Data 310
+# Jacob Atagi Data 310
 
 [exercise_1](https://jdatagi.github.io/exercise1.md)
 
