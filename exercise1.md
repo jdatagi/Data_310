@@ -1,10 +1,10 @@
 Here are my answers to the response questions from the informal activity:
 
-Question 1: In Laurence Maroney’s video, what is ML, he compares traditional programming with machine learning and argues that the main difference between the two is a reorientation of the rules, data, and answers. According to Maroney, what is the difference between traditional programming and machine learning. 
+#### Question 1: In Laurence Maroney’s video, what is ML, he compares traditional programming with machine learning and argues that the main difference between the two is a reorientation of the rules, data, and answers. According to Maroney, what is the difference between traditional programming and machine learning. 
 
 According to Maroney, in traditional programming we input rules and data which then produce answers to questions. However, with machine learning we input answers and data which then produce rules. Thus, we are still working with rules, data, and answers but we change their status as inputs or outputs. 
 
-Question 2:	With the first basic script that Maroney used to predict a value output from the model he estimated (he initially started with 10 that predicted ~31. Modify the predict function to produce the output for the value 7. Do this twice and provide both answers. Are they the same? Are they different? Why is this so?
+#### Question 2:	With the first basic script that Maroney used to predict a value output from the model he estimated (he initially started with 10 that predicted ~31. Modify the predict function to produce the output for the value 7. Do this twice and provide both answers. Are they the same? Are they different? Why is this so?
 
 I got 22.003447 and 22.000025 when I refit the model. The reason that they are different is because neural networks deal with probabilities thus each time a model is trained there is an element of randomness that may change the model.
 
@@ -21,7 +21,7 @@ model.fit(xs, ys, epochs=500)
 print(model.predict([7.0]))
 ```
 
-Question 3: Using the script, you produced to predict housing price take the provided size houses and train a neural net model that estimates the relationship between them. Based on the model of the size homes present a good deal? Which one is the worst deal? Justify your answer.
+### Question 3: Using the script, you produced to predict housing price take the provided size houses and train a neural net model that estimates the relationship between them. Based on the model of the size homes present a good deal? Which one is the worst deal? Justify your answer.
 
 According to the model, Hudgin is the best deal. Hudgins is valued at $97,000 but based on the number of bedrooms it predicts that it should be worth $234.51004 for a potential profit of $137.51004. The worst deal is Church which is valued at $399,000 but the model predicts that it has a value of $299.8261 for a loss of $99.17389.
 
