@@ -1,6 +1,6 @@
 ## Mini-Project 1: Social Distance Detector
 
-#### Video:
+### Video:
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/kme6VODgbt0/0.jpg)](http://www.youtube.com/watch?v=kme6VODgbt0)
 
