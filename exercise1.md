@@ -21,7 +21,7 @@ model.fit(xs, ys, epochs=500)
 print(model.predict([7.0]))
 ```
 
-### Question 3: Using the script, you produced to predict housing price take the provided size houses and train a neural net model that estimates the relationship between them. Based on the model of the size homes present a good deal? Which one is the worst deal? Justify your answer.
+#### Question 3: Using the script, you produced to predict housing price take the provided size houses and train a neural net model that estimates the relationship between them. Based on the model of the size homes present a good deal? Which one is the worst deal? Justify your answer.
 
 According to the model, Hudgin is the best deal. Hudgins is valued at $97,000 but based on the number of bedrooms it predicts that it should be worth $234.51004 for a potential profit of $137.51004. The worst deal is Church which is valued at $399,000 but the model predicts that it has a value of $299.8261 for a loss of $99.17389.
 
