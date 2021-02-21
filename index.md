@@ -6,9 +6,9 @@
 Hello, I'm Jacob. I'm from Alexandria, VA. I'm a senior at W&M, majoring in Economics and minoring in Math. In my freetime I like to play basketball, read, and hike. Please feel free to reach out if you want to study together for this class or to just connect!
 
 ### Informal Responses
-[Exercise_1](exercise1.md)
+[Exercise 1](exercise1.md)
 
-[Exercise_2](exercise_2.md)
+[Exercise 2](exercise_2.md)
 
 [Exercise 3](exercise3.md)
 
