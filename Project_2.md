@@ -1,3 +1,5 @@
+# Project 2: Predicting Wealth Outcomes in 2014 Kenya
+
 #### Question 1: Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce
 
 #### Which "top_model" performed the best (had the largest AUC)?
