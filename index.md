@@ -14,6 +14,8 @@ Hello, I'm Jacob. I'm from Alexandria, VA. I'm a senior at W&M, majoring in Econ
 
 [Exercise 4](exercise4.md)
 
+[Exercise 6](Exercise_6.md)
+
 ### Projects
 [Mini-Project 1: Social Distance Detector](Mini-Project_1.md)
 
