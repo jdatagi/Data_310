@@ -25,3 +25,5 @@ Hello, I'm Jacob. I'm from Alexandria, VA. I'm a senior at W&M, majoring in Econ
 
 [Project 2](Project_2.md)
 
+[Project 3](Project_3.md)
+
