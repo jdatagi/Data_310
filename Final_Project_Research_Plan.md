@@ -14,4 +14,27 @@ This data was compiled by Ph.D. candidate Alexandra Constantin and records the w
 
 #### Provide the specification for your applied machine learning method that presented the most promise in providing a solution to your problem. Include the section from your python or R script that specifies your model architecture, layers, functional arguments and specifications for compiling and fitting. Provide a brief description of how you implemented your code in practice.
 
+I initially compared an OLS Regression to a single layer neural network.
+
+Code in R:
+```
+m <- lm(Power.Generated ~ Day.of.Year + as.factor(Month) + as.factor(First.Hour.of.Period)+ Is.Daylight +Sky.Cover +  
+       Relative.Humidity  + Average.Wind.Direction..Day. + Average.Temperature..Day. +
+        Average.Wind.Speed..Day. + Visibility  + Average.Barometric.Pressure..Period. + Distance.to.Solar.Noon, data= df)
+
+```
+
+```
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[5])])
+model.compile(optimizer='sgd', loss='mean_squared_error')
+
+xhp1 = homes['no_beds'].to_numpy(dtype=float) # Bedrooms
+xhp2 = homes['sqft_scaled'].to_numpy(dtype=float)# Square feet
+xhp3 = homes['baths'].to_numpy(dtype=float) # bathrooms
+xhp4 = homes['lat_scaled'].to_numpy(dtype=float)
+xhp5 = homes['lon_scaled'].to_numpy(dtype=float)
+xs = np.stack([xhp1,xhp2, xhp3, xhp4, xhp5], axis=1) # Stack the data
+ys = homes['prices_scaled'].to_numpy(dtype=float) #prices
+```
+
 #### Conclude with a section that preliminarily assesses model performance. If you have results from your implementation, you are welcome to add those in this section. Compare your preliminary results with those from the literature on your topic for a comparative assessment. If you are not able to produce preliminary results, provide a cursory literature review that includes 2 sources that present and describes their validation. With more time and project support, estimate what an ideal outcome looks like in terms of model validation.
